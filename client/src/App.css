@@ -1,0 +1,36 @@
+.hero {
+    background-image: url("./assets/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("./assets/contactus.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+}
+.login {
+    height: 100vh;
+    background-color: black;
+    background-image: url("./assets/contactus.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+}
+.register {
+    height: 100vh;
+    background-color: black;
+    background-image: url("./assets/register.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
