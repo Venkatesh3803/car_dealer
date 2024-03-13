@@ -1,6 +1,7 @@
 import axios from "axios"
 import { toast } from "react-toastify";
-export const baseUrl = "http://localhost:8800/api";
+// export const baseUrl = "http://localhost:8800/api";
+export const baseUrl = "https://car-dealer-pngo.onrender.com/api";
 
 
 export const AuthRequest = async (url, method, data, token) => {
